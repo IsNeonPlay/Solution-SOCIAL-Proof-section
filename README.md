@@ -23,8 +23,7 @@ El background no fue tan complicado, solo hice lo siguiente:
         <img src="images/bg-pattern-bottom-mobile.svg" alt="bg mobile">
       </div>
     </div>
-`
-`
+
     <div class="bg-desktop">
       <div class="bg-desktop__top">
         <img src="images/bg-pattern-top-desktop.svg" alt="bg desktop">
