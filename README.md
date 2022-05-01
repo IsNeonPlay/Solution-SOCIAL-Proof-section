@@ -34,9 +34,9 @@ El background no fue tan complicado, solo hice lo siguiente:
     </div>
 ```
 
--Luego , en la hoja de estilos (style.css) edité los contenedores de la version movil y a la version de escritorio le agregué `display: none;` para que desapareciera.
+- Luego , en la hoja de estilos (style.css) edité los contenedores de la version movil y a la version de escritorio le agregué `display: none;` para que desapareciera.
 
--Con el mediaQuerie de la version de escritorio, hice lo contrario a la hoja de estilos principal, a la version movil le agregué `display: none;`, y la version de escritorio le puse un `display: block;` para que sea visible y poder trabajar con esa versión.
+- Con el mediaQuerie de la version de escritorio, hice lo contrario a la hoja de estilos principal, a la version movil le agregué `display: none;`, y la version de escritorio le puse un `display: block;` para que sea visible y poder trabajar con esa versión.
 
 
 ## // ENGLISH // 🇬🇧 
@@ -70,6 +70,6 @@ The background was not that complicated, I just did the following:
     </div>
 ```
 
--Then, in the style sheet (style.css) I edited the containers of the mobile version and added `display: none;` to the desktop version so that it would disappear.
+- Then, in the style sheet (style.css) I edited the containers of the mobile version and added `display: none;` to the desktop version so that it would disappear.
 
--With the mediaQuerie of the desktop version, I did the opposite of the main style sheet, to the mobile version I added `display: none;`, and the desktop version I put a `display: block;` to make it visible and be able to work with that version.
+- With the mediaQuerie of the desktop version, I did the opposite of the main style sheet, to the mobile version I added `display: none;`, and the desktop version I put a `display: block;` to make it visible and be able to work with that version.
