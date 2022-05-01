@@ -1,0 +1,129 @@
+/*************** GENERAL STYLES ***************/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+:root {
+  --BG-Color: hsl(0, 0%, 100%);
+  --Bg-Ratings-Color: hsl(300, 24%, 96%);
+  --Paragraph-Info-Color: hsl(303, 10%, 53%);
+  --Cards-Bg-and-Font-Colors: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Font: 'League Spartan', sans-serif;
+  --Border-radius-Box: .5em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--Font);
+  font-size: 15px;
+}
+/*************** BACKGROUND MOBILE ***************/
+.bg-mobile {
+  width: 40vh;
+  z-index: -1;
+}
+.bg-mobile__top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.bg-mobile__bottom {
+  width: 100%;
+  position: fixed;
+  bottom: -670px;
+}
+.bg-desktop {
+  display: none;
+}
+
+/*************** MAIN ***************/
+.main {
+  margin: 80px 25px;
+  position: relative;
+  display: grid;
+  text-align: center;
+  gap: 46px;
+}
+/********** Main Info **********/
+.main__info {
+  display: grid;
+  gap: 25px;
+}
+.main__info-title {
+  margin: 0 20px;
+  color: var(--Cards-Bg-and-Font-Colors);
+  font-size: 25px;
+  line-height: 30px;
+}
+.main__info-paragraph {
+  color: var(--Paragraph-Info-Color) ;
+  font-size: 18px;
+}
+
+/********** Main Rate **********/
+.main__rate {
+  margin: 0 3px;
+  color: var(--Cards-Bg-and-Font-Colors);
+  font-size: 11px;
+  display: grid;
+  gap: 15px;
+}
+.main__rate-ratings {
+  padding: 17px 0;
+  width: 100%;
+  height: 80px;
+  background-color: var(--Bg-Ratings-Color);
+  border-radius: var(--Border-radius-Box);
+  line-height: 25px;
+}
+.main__rate-stars {
+  letter-spacing: 5px;
+}
+
+/********** Main Feedback **********/
+.main__feedback {
+  display: grid;
+  gap: 16px;
+}
+.main__feedback-ctn {
+  padding: 35px 32.99px;
+  background-color: var(--Cards-Bg-and-Font-Colors);
+  border-radius: var(--Border-radius-Box);
+  display: grid;
+  gap: 20px;
+}
+.main__feedback-ctn-info-user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.main__feedback-ctn-user-desc {
+  color: var(--Bg-Ratings-Color);
+  font-weight: 100;
+}
+.main__feedback-ctn-user-desc span {
+  color: var(--Soft-Pink);
+  font-size: 16px;
+  font-weight: 100;
+  opacity: .5;
+} 
+.main__feedback-ctn-avatar {
+  width: 43px;
+  border-radius: 50%;
+}
+.main__feedback-ctn-feed {
+  color: var(--Bg-Ratings-Color);
+  font-size: 16px;
+  text-align: start;
+  opacity: .8;
+}
+
+/*************** FOOTER ***************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,148 @@
+/******************** SCREEN 700px ********************/
+@media screen and (min-width: 700px) {
+
+  .main {
+    margin: 80px 75px;
+  }
+
+}
+
+/******************** SCREEN 1000px ********************/
+@media screen and (min-width: 1000px) {
+
+  /*************** BACKGROUND DESKTOP ***************/
+  .bg-mobile {
+    display: none;
+  }
+  .bg-desktop {
+    display: block;
+    z-index: -1;
+  }
+  .bg-desktop__top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .bg-desktop__bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  /*************** MAIN ***************/
+  .main {
+    margin: 80px 100px;
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    gap: 40px;
+  }
+
+  /********** Main Info **********/
+  .main__info {
+    display: block;
+  }
+  .main__info-title {
+    margin: 0 0;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: start;
+    line-height: 40px;
+  }
+  .main__info-paragraph {
+    text-align: start;
+  }
+
+  /********** Main Rate **********/
+  .main__rate {
+    margin: 0;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__rate-ratings {
+    padding: 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .report {
+    margin-left: 20px;
+  }
+  .besttech {
+    margin-left: 40px;
+  }
+
+  /********** Main Feedback **********/
+  .main__feedback {
+    grid-column: span 2;
+    display: flex;
+  }
+  .feed-1 {
+    margin-bottom: 20px;
+  }
+  .feed-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .feed-3 {
+    margin-top: 20px;
+  } 
+
+}
+
+/******************** SCREEN 1440px ********************/
+@media screen and (min-width: 1440px) {
+
+  /*************** MAIN ***************/
+  .main {
+    margin: 150px auto;
+    max-width: 1440px;
+    gap: 60px;
+  }
+
+  /********** Main Info **********/
+  .main__info {
+    margin: 0 auto 0 140px;
+    width: 450px;
+  }
+  .main__info-title {
+    font-size: 35px;
+  }
+  
+  /********** Main Rate **********/
+  .main__rate {
+    margin-left: 20px;
+    width: 450px;
+  }
+  .main__rate-ratings {
+    padding: 30px;
+  }
+  .report {
+    margin-left: 50px;
+  }
+  .besttech {
+    margin-left: 100px;
+  }
+
+  /********** Main Feedback **********/
+  .main__feedback {
+    margin-left: 140px;
+    gap: 30px;
+  }
+  .main__feedback-ctn {
+    width: 350px;
+    height: 235px;
+  }
+  .feed-1 {
+    margin-bottom: 30px;
+  }
+  .feed-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .feed-3 {
+    margin-top: 50px;
+  } 
+
+}
