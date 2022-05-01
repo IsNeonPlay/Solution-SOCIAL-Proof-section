@@ -1,9 +1,9 @@
-## Solution SOCIAL Proof section
+# Solution SOCIAL Proof section
 Front-end Mentor Basic challenge solved By IsNeonPlay
 
-# [![desktop-preview.jpg](https://i.postimg.cc/L4tp8qL9/desktop-preview.jpg)](https://postimg.cc/Sjx5Zxg3)
+[![desktop-preview.jpg](https://i.postimg.cc/L4tp8qL9/desktop-preview.jpg)](https://postimg.cc/Sjx5Zxg3)
 
-# // ESPAÑOL // 🇪🇸 
+## // ESPAÑOL // 🇪🇸 
 
 Otro reto básico de Front-end Mentor resuelto por IsNeonPlay. 
 Ultimamente me estoy dando cuenta que me cuesta bastante centrar los objetos o el main en la version de escritorio, hice el intento y al parecer quedó un poco corrido hacia la izquerda, pero lo intenté. 
@@ -39,7 +39,7 @@ El background no fue tan complicado, solo hice lo siguiente:
 -Con el mediaQuerie de la version de escritorio, hice lo contrario a la hoja de estilos principal, a la version movil le agregué `display: none;`, y la version de escritorio le puse un `display: block;` para que sea visible y poder trabajar con esa versión.
 
 
-# // ENGLISH // 🇬🇧 
+## // ENGLISH // 🇬🇧 
 
 Another basic Front-end Mentor challenge solved by IsNeonPlay.
 Lately I am realizing that it is quite difficult for me to center the objects or the main in the desktop version, I tried and it seems that it was a little shifted to the left, but I tried.
