@@ -14,24 +14,25 @@ El background no fue tan complicado, solo hice lo siguiente:
 
 - Agregué estos contenedores con todos los fondos (movil y escritorio) y los separé en dos contenedores para tener la versión de cada uno en el documento html.
 
-   <div class="bg-mobile">
-      <div class="bg-mobile__top">
-        <img src="images/bg-pattern-top-mobile.svg" alt="bg mobile">
-      </div>
-      <div class="bg-mobile__bottom">
-        <img src="images/bg-pattern-bottom-mobile.svg" alt="bg mobile">
-      </div>
+`
+	<div class="bg-mobile">
+  	<div class="bg-mobile__top">
+    	<img src="images/bg-pattern-top-mobile.svg" alt="bg mobile">
     </div>
+  	<div class="bg-mobile__bottom">
+      <img src="images/bg-pattern-bottom-mobile.svg" alt="bg mobile">
+   	</div>
+  </div>
 
-    <div class="bg-desktop">
-      <div class="bg-desktop__top">
-        <img src="images/bg-pattern-top-desktop.svg" alt="bg desktop">
-      </div>
-      <div class="bg-desktop__bottom">
-        <img src="images/bg-pattern-bottom-desktop.svg" alt="bg desktop">
-      </div>
+  <div class="bg-desktop">
+  	<div class="bg-desktop__top">
+    	<img src="images/bg-pattern-top-desktop.svg" alt="bg desktop">
     </div>
-
+    <div class="bg-desktop__bottom">
+      <img src="images/bg-pattern-bottom-desktop.svg" alt="bg desktop">
+    </div>
+  </div>
+`
 
 -Luego , en la hoja de estilos (style.css) edité los contenedores de la version movil y a la version de escritorio le agregué `display: none;` para que desapareciera.
 
